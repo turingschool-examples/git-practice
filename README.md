@@ -9,6 +9,7 @@ Reality: Git is hard. Let's practice! :tada:
 * `git log --grep=thing_we_are_searching_for`
 * `git reset HEAD <file>`
 * `git reset HEAD^^`
+* `git stash`
 * How do we undo `git add`?
 
 ### Practice:
