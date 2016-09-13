@@ -1,3 +1,6 @@
 <h1> Item page! </h1>
 
-<%= @item.id %>
+
+<% @items.each do |item| %>
+  <h3> <%= item.id %> </h3></br>
+<% end %>
