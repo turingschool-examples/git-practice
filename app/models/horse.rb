@@ -1,5 +1,5 @@
 class Horse < ApplicationRecord
-  validates :name, :breed, :age, presence: true
+  validates :name, :age, presence: true
   validate :older_than_four
 
   def older_than_four
