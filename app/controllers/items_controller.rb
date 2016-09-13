@@ -1,4 +1,4 @@
-class ItemsController < ApplicationRecord
+class ItemsController < ApplicationController
 
   def index
     @items = Item.all
